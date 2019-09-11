@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    min-height: 100%;
+    background-color:burlywood;
+    background-image: url("coffee-shop_1200x1200.jpg");
+    font-family: cursive;
+    font-size: 5vw;
+  
+}
+
+.wrapper {
+    display: grid;
+    max-width: 60vw;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+   
+}
+
+.item2 {
+   width: 50px;
+   height: 50px;
+}
+
